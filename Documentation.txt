@@ -1,0 +1,48 @@
+
+- ETAPA 1:
+Criamos todos os Models, Controllers, Migrations da aplicação.
+----------------------------------------------------------------------------
+- ETAPA 2: 
+ -Criamos a database e configuramos.
+
+    DB_DATABASE=lc
+    DB_USERNAME=root
+    DB_PASSWORD=123
+
+ -Adicionamos os métodos ups em todas as Migrations e rodamos.
+----------------------------------------------------------------------------
+- ETAPA 3: 
+ 
+ -Configuramos todas as rotas na api.php, ex:
+    Route::apiResource('cliente', 'App\Http\Controllers\ClienteController');
+    Route::apiResource('carro', 'App\Http\Controllers\CarroController');
+    etc..
+ -Iniciamos os testes dos end-points via postman ou insominia, instanciando
+ as pastas e os métodos, Index,Store e etc.
+
+----------------------------------------------------------------------------
+
+- ETAPA 4: 
+   - Implementação dos métodos 
+   - Implementação de header accept para validações.
+   - Implementação de validações rules, feedback no model.
+----------------------------------------------------------------------------
+
+- ETAPA 5: 
+----------------------------------------------------------------------------
+
+- ETAPA 6: 
+----------------------------------------------------------------------------
+
+- ETAPA 7: 
+----------------------------------------------------------------------------
+
+- ETAPA 8: 
+----------------------------------------------------------------------------
+
+- ETAPA 9: 
+
+
+
+obs:
+ dirença entre Route::resource e Route::apiResource: mapeamento das rotas
